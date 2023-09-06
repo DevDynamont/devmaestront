@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title> </title>
+
+</head>
+
+<link rel="stylesheet" href="wweb.css">
+
+<body>
+<div class="navbar">
+        <a href="#home">Send message</a>
+        <a href="#about">Contact us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Home</a>
+    </div><br><br>
+    <div class="textbox">
+    <p>Restoring Lives, Renewing Spaces.</p>
+</div>
+<div class="textsup">
+After investigators are done, who cleans up a crime scene? The humanity, horror of the job
+</div>
+<div class="title1">
+                     <h2 align="center">About Us:<h2></div>
+<div class="textbox1">
+<p>At CareClean Restoration, we understand that life can be unpredictable, and sometimes, unfortunate events occur that require a specialized and compassionate response. We are a trusted and professional crime scene cleanup and biohazard remediation company dedicated to restoring safety and cleanliness to affected spaces during some of life's most challenging moments.</p>
+</div><br><br>
+
+<center><img src="crime.jpg" width="400px" height="400px" ><br><br>
+
+<div class="title2">
+<h2 align="center">Our Mission:</h2></div>
+<div class="textbox2">
+<p>Our mission is simple yet vital: to provide comprehensive and discreet cleanup services with the utmost care and respect for families, businesses, and communities dealing with the aftermath of tragedies. We aim to alleviate the emotional and physical burden that comes with cleaning up crime scenes, accidents, suicides, unattended deaths, and other traumatic events.</p>
+</div>
+<div class="title3">
+<h2>Our Services:</h2></div>
+<div class="textbox3">
+Crime Scene Cleanup: We thoroughly clean and disinfect crime scenes, removing any biohazardous materials while preserving the integrity of the affected space.
+</div>
+<div class="textbox4">
+Biohazard Remediation: We specialize in handling and disposing of biological materials, such as blood, bodily fluids, and tissues, in a safe and compliant manner.
+</div>
+<div class="slideshow-container">
+    <!-- Slides -->
+    <div class="mySlides">
+        <img src="crime2.jpg" alt="Image 1">
+    </div>
+
+    <div class="mySlides">
+        <img src="cime3.jpg" alt="Image 2">
+    </div>
+
+    <div class="mySlides">
+        <img src="crime4.jpg" alt="Image 3">
+    </div>
+
+    <!-- Previous and Next Buttons -->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        const slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script><br><br><br><br>
+<div class="titless">
+Unattended Death Cleanup
+Suicide Cleanup
+Accident Cleanup
+</div>
+</body>
+
+</html>

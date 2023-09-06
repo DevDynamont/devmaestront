@@ -1,0 +1,167 @@
+body{
+    background-image: url(wood.jpg);
+    
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-clip: border-box;
+    width: "100%";
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Style for the navigation bar */
+.navbar {
+    background-color:  rgba(255, 255, 255, 0.7);
+    position: fixed;
+    font-size: 20px;
+    font-family: fantasy;
+    width:100%;
+  
+}
+
+/* Style for the navigation bar links */
+.navbar a {
+    
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    top:0;
+    height:0;
+    display: inline-block;
+}
+/* Change link appearance on hover */
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white */
+    color: black;
+}
+.textbox{
+    width:400px;
+    border:0;
+    padding:30px;
+    font-size: 50px;
+    color:white;
+    text-align: left;
+
+
+}
+.title1{
+    text-align: "center";
+    font-size: 30px;
+    text-decoration: underline;
+    color:rgb(0, 0, 0);
+}
+.textbox1{
+    font-size:25px;
+    text-align: center  ;
+    color:rgb(255, 252, 252);
+}
+.title2{
+    font-size:30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.textbox2{
+    font-size:25px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+.title3{
+    font-size:30px;
+    text-align: center;
+    text-decoration: underline;
+}
+.textbox3{
+    width: 300px; 
+    height: 200px; 
+    float: left; 
+    font-size: 30px;
+    padding: 20px; 
+    color:rgb(167, 63, 63);
+    font-family:italic;
+}
+.textbox4{
+    width: 300px; 
+    height: 200px; 
+    float: right; 
+    font-size: 30px;
+    padding: 20px; 
+    color:rgb(167, 63, 63);
+    font-family:italic;
+}
+
+/* Style for the slideshow container */
+.slideshow-container {
+    max-width: 400px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide all images by default */
+.mySlides {
+    display: none;
+}
+
+/* Style for the images */
+img {
+    width: 400px;
+    height:300px;
+    height: auto;
+}
+
+/* Style for the previous and next buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "prev" button on the left */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* Position the "next" button on the right */
+.next {
+    right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.titless{
+    width: 300px; 
+    height: 150px; 
+    float: center; 
+    font-size: 30px;
+    padding: 20px; 
+    color:rgb(255, 255, 255);
+    font-family:italic;
+    border:solid;
+    background-image:url(woodd.jpg) ;
+}
+.textsup{
+   
+    float: right; 
+    font-size: 50px;
+    padding: 20px; 
+    color:rgb(195, 185, 185);
+    font-family:italic;
+    
+    
+}
